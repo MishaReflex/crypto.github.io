@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Шифрова́ние</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Tooplate" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Additional CSS Files -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/tooplate-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+<!--
+Tooplate 2116 Blugoon
+https://www.tooplate.com/view/2116-blugoon
+-->
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/logo-image.jpg" alt="Blugoon by Tooplate" /></a>
+            </div>
+            <div class="author-content">
+              <h4></h4>
+              <span></span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">Шифрова́ние</a></li>
+                <li><a href="#section2">Симметричное шифрование</a></li>
+                <li><a href="#section3">Ассиметричное шифрование</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="vk.com/mishareflex"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="youtube.com/mishoha"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>CTF-SGUGIT<br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+     <section class="section about-me" data-section="section1">
+        <div class="container">
+        <div class="top-header">
+        	<img src="assets/images/aerobic-girls.jpg" alt="aerobic girls" />
+        </div>
+          <div class="section-heading">
+          
+            <h2>Шифрование</h2>
+            <div class="line-dec"></div>
+            <span>Шифрова́ние — обратимое преобразование информации в целях сокрытия от неавторизованных лиц, с предоставлением, в это же время, авторизованным пользователям доступа к ней. Главным образом, шифрование служит задачей соблюдения конфиденциальности передаваемой информации. Важной особенностью любого алгоритма шифрования является использование ключа, который утверждает выбор конкретного преобразования из совокупности возможных для данного алгоритма</span>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+ 
+              <div class="col-md-8">
+                <div class="left-text">
+                  <div class="white-button">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="right-image">
+                  <img src="assets/images/mountain-reflection.jpg" alt="Mountain Reflection" />
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="left-image-post">
+            <div class="row"> 
+              <div class="col-md-4">
+                <div class="left-image">
+                  <img src="assets/images/girl-nature.jpg" alt="Nature Girl" />
+                </div>
+              </div>
+              
+              <div class="col-md-8">
+                <div class="right-text">
+                  <div class="white-button">
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Симметричное шифрование</h2>
+            <div class="line-dec"></div>
+            <span>Прежде чем мы начнем разбираться в теме, ответим на простой вопрос: что именно подразумевается под "шифрованием"? Шифрование – преобразование информации в целях сокрытия от неавторизованных лиц, но в то же время с предоставлением авторизованным пользователям доступа к ней.
+
+Чтобы правильно зашифровать и расшифровать данные, нужны две вещи: данные и ключ для дешифровки. При использовании симметричного шифрования ключ для шифрования и расшифровки данных одинаковый. Возьмем строку и зашифруем ее с помощью Ruby и OpenSSL:</span>
+          </div>
+		  <IMG SRC="1.bmp">
+		  <br>
+		  <br>		
+		  <span> Вот что выведет программа:</span>
+		  <br>
+		  <br>		
+		  <IMG SRC="2.bmp">
+		  <span> Обратите внимание, что переменная data_to_encrypt, которая изначально была строкой “now you can read me!”, теперь куча непонятных символов. Обратим процесс, используя ключ, который изначально сохранили в переменной key.</span>
+			<br>
+			<br>
+			<IMG SRC="3.BMP">
+			<span>После использования того же ключа, который мы установили для шифрования, дешифруем сообщение и получаем исходную строку.</span>
+      <section class="section my-work" data-section="section3">
+            <h2>Ассиметричное Шифрова́ние</h2>
+            <div class="line-dec"></div>
+            <span>Проблема симметричного шифрования заключается в следующем: предположим, необходимо отправить какие-то данные через Интернет. Если для шифрования и расшифровки данных требуется один и тот же ключ, то получается, что сначала нужно отправить ключ. Это означает, что отослать ключ надо будет через небезопасное соединение. Но так ключ может быть перехвачен и использован третьей стороной. Чтобы избежать такого исхода, изобрели асимметричное шифрование.
+
+Дабы использовать асимметричное шифрование, необходимо сгенерировать два математически связанных ключа. Один – это приватный ключ, доступ к которому имеете только вы. Второй – открытый, который является общедоступным.
+
+Рассмотрим пример общения с использованием асимметричного шифрования. В нём отправлять сообщения друг другу будут сервер и пользователь. У каждого из них есть по два ключа: приватный и публичный. Ранее было сказано, что ключи связные. Т.е. сообщение, зашифрованное приватным ключом можно расшифровать только с помощью смежного публичного ключа. Поэтому чтобы начать общение, нужно обменяться публичными ключами.
+
+Но как понять, что открытый ключ сервера принадлежит именно этому серверу? Существует несколько способов решения этой проблемы. Наиболее распространенный метод (и тот, который используется в интернете) – использование инфраструктуры открытых ключей (PKI). В случае веб-сайтов существует Центр сертификации, у которого есть каталог всех сайтов, на которые были выданы сертификаты и открытые ключи. При подключении к веб-сайту его открытый ключ сначала проверяется центром сертификации.
+
+Создадим пару открытого и закрытого ключей:</span>
+<IMG SRC="4.bmp">
+<p><font color="3399FF">666c61672069732053574748334839393246474e4e4f4a4e57474a574a4247494f30573d</font></p>
+	<IMG SRC="5.bmp">
+	<br>
+	<br>
+	<span>Обратите внимание, что приватный ключ и открытый ключ являются отдельными объектами с различными идентификаторами. Используя #private_encrypt, можно зашифровать строку с помощью закрытого ключа, а используя #public_decrypt – расшифровать сообщение:</span>
+         <IMG SRC="6.bmp">
+		 </div>
+	<span>Hex (hexadecimal) — обозначение шестнадцатеричной системы счисления. Hex — шестигранный шлиц. Hex-редактор — приложение для редактирования данных, представляющее данные как последовательность байтов в hex-коде. Intel HEX — формат файла, предназначенного для представления произвольных данных в текстовом виде. Хекс (значения)</span>
+	<span>С помощью шестнадцатиричной системы можно шифровать послания, для этого можно использовать онлайн шифровщики hex to text</span>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
+                  <span>all</span></label>
+                <label><input type="radio" data-type="pretty" name="isotope-filter" />
+                  <span>pretty</span></label>
+                <label><input type="radio" data-type="sexy" name="isotope-filter" />
+                  <span>sexy</span></label>
+                <label><input type="radio" data-type="beach" name="isotope-filter" />
+                  <span>beach</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="beach">
+                  <figure class="snip1321">
+                    <img src="assets/images/woman-beach.jpg" alt="woman at the beach" />
+                    <figcaption>
+                      <a href="assets/images/woman-beach.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"><i class="fa fa-search"></i></a>
+                      <h4>Girl One</h4>
+                      <span>woman at the beach</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="sexy">
+                  <figure class="snip1321">
+                    <img src="assets/images/woman-chair-sunshine.jpg" alt="sq-sample26" />
+                    <figcaption>
+                      <a href="assets/images/woman-chair-sunshine.jpg"
+                        data-lightbox="image-1"
+                        data-title="Sunshine Woman"><i class="fa fa-search"></i></a>
+                      <h4>Sexy Lady</h4>
+                      <span>there you go sexy girl</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="pretty">
+                  <figure class="snip1321">
+                    <img src="assets/images/woman-pretty.jpg" alt="Pretty Girl" />
+                    <figcaption>
+                      <a href="assets/images/woman-pretty.jpg"
+                        data-lightbox="image-1"
+                        data-title="Pretty Girl"><i class="fa fa-search"></i></a>
+                      <h4>Pretty Girl</h4>
+                      <span>red flowers white girl</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="pretty">
+                  <figure class="snip1321">
+                    <img src="assets/images/escalator-blue.jpg" alt="Escalator Blue" />
+                    <figcaption>
+                      <a href="assets/images/escalator-blue.jpg"
+                        data-lightbox="image-1"
+                        data-title="Escalator Blue"><i class="fa fa-search"></i></a>
+                      <h4>Escalator Up</h4>
+                      <span>Blue architecture building</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="beach">
+                  <figure class="snip1321">
+                    <img src="assets/images/woman-feeling.jpg" alt="woman feeling" />
+                    <figcaption>
+                      <a href="assets/images/woman-feeling.jpg"
+                        data-lightbox="image-1"
+                        data-title="Her Feeling"><i class="fa fa-search"></i></a>
+                      <h4>Her Feeling</h4>
+                      <span>Ut sollicitudin risus</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="sexy">
+                  <figure class="snip1321">
+                    <img src="assets/images/woman-bikini.jpg" alt="Bikini Girl" />
+                    <figcaption>
+                      <a href="assets/images/woman-bikini.jpg" 
+                      data-lightbox="image-1" data-title="Sexy Bikini">
+                      <i class="fa fa-search"></i></a>
+                      <h4>Bikini Girl</h4>
+                      <span>Donec eget massa ante</span>
+                    </figcaption>
+                  </figure>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+				<p><font color="white">666c6167206973204d4e494f4e494f494f4e4f4e4f4e4f4e4f4e4f4e4f4e4d4e4b3d</font></p>
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
